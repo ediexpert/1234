@@ -16,8 +16,8 @@
 		3B3CECA31D18107A007AE1EC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CECA21D18107A007AE1EC /* Default.png */; };
 		3B3CECA51D18107A007AE1EC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CECA41D18107A007AE1EC /* Default@2x.png */; };
 		3B3CECA71D18107A007AE1EC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CECA61D18107A007AE1EC /* Default-568h@2x.png */; };
-		3B3CECAA1D18107A007AE1EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CECA91D18107A007AE1EC /* ViewController.m */; };
 		3B3CECAD1D18107A007AE1EC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CECAB1D18107A007AE1EC /* ViewController.xib */; };
+		3B3CECB51D181282007AE1EC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CECB41D181282007AE1EC /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,9 @@
 		3B3CECA21D18107A007AE1EC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3B3CECA41D18107A007AE1EC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3B3CECA61D18107A007AE1EC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3B3CECA81D18107A007AE1EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3B3CECA91D18107A007AE1EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3B3CECAC1D18107A007AE1EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3B3CECB31D181282007AE1EC /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3B3CECB41D181282007AE1EC /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +85,10 @@
 			children = (
 				3B3CEC9F1D18107A007AE1EC /* AppDelegate.h */,
 				3B3CECA01D18107A007AE1EC /* AppDelegate.m */,
-				3B3CECA81D18107A007AE1EC /* ViewController.h */,
-				3B3CECA91D18107A007AE1EC /* ViewController.m */,
 				3B3CECAB1D18107A007AE1EC /* ViewController.xib */,
 				3B3CEC971D18107A007AE1EC /* Supporting Files */,
+				3B3CECB31D181282007AE1EC /* LoginViewController.h */,
+				3B3CECB41D181282007AE1EC /* LoginViewController.m */,
 			);
 			path = "vipaios-new";
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 			files = (
 				3B3CEC9D1D18107A007AE1EC /* main.m in Sources */,
 				3B3CECA11D18107A007AE1EC /* AppDelegate.m in Sources */,
-				3B3CECAA1D18107A007AE1EC /* ViewController.m in Sources */,
+				3B3CECB51D181282007AE1EC /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
